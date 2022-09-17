@@ -1,0 +1,40 @@
+name: movie_ticket
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^1.22.0
+  cloud_firestore: ^3.4.7
+  google_fonts: ^3.0.1
+  encryptor: ^0.0.1
+  flutter_image_slideshow: ^0.1.4
+  url_strategy: ^0.2.0
+  firebase_storage: ^10.3.8
+  web_smooth_scroll: ^1.0.0
+  file_picker: ^3.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  - assets/
+  - assets/logo/
+  - assets/login/
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
